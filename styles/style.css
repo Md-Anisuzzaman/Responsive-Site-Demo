@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 6px;
+}
+
+.bg-img {
+    background-image: url("https://t4.ftcdn.net/jpg/04/95/28/65/360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg");
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.ul-body {
+    display: flex;
+    background-color: #ffc107;
+    width: 100%;
+    /* height: 55px; */
+    position: absolute;
+    bottom: 0;
+}
+
+.ul-body li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 20px 50px;
+}
+
+.ul-body li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+}
+
+.ul-body a:hover {
+    color: rgb(193, 81, 228);
+}
+
+.welcome h2 {
+    padding-top: 30px;
+    color: #0288d1;
+    text-align: center;
+}
+
+.welcome p {
+    padding: 10px 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.welcome p a {
+    color: red;
+}
+
+.templates-body h2 {
+    padding: 0px 30px;
+}
+
+.img-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-div img {
+    width: 300px;
+}
+
+.templates-body p {
+    padding: 15px 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.template__customization {
+    padding: 0px 26px;
+}
+
+.template__customization p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.template__customization p a {
+    color: red;
+}
+
+.our__blog {
+    padding: 0px 24px;
+}
+
+.our__blog p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.our__blog h2 a {
+    color: red;
+}
+
+footer {
+    height: 60px;
+    text-align: center;
+    background-color: #ffc107;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+    padding-top: 20px;
+}
+
+footer p a {
+    color: red;
+}
+
+/* $desktop:1200px;
+$laptop:992px;
+$tablet:1200px;
+$Phone:480px; */
+
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+
+    .bg-img {
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .ul-body {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ul-body {
+        padding: 0px;
+    }
+
+    .ul-body li {
+        background-color: rgb(136, 119, 119);
+        margin: 5px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+
+    .ul-body a:hover {
+        color: #fff;
+    }
+
+    .img-div {
+        flex-direction: column;
+    }
+
+    .img-div img {
+        margin: 10px;
+    }
+
+}
