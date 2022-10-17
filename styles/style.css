@@ -40,8 +40,8 @@ main {
     color: rgb(193, 81, 228);
 }
 
-.welcome h2 {
-    padding-top: 30px;
+.welcome h1 {
+    padding-top: 20px;
     color: #0288d1;
     text-align: center;
 }
@@ -64,14 +64,16 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0px 30px;
+   
 }
 
 .img-div img {
-    width: 300px;
+    width: 300px;  
 }
 
 .templates-body p {
-    padding: 15px 30px;
+    padding: 10px 30px;
     text-align: justify;
     line-height: 1.5;
 }
@@ -160,7 +162,7 @@ $Phone:480px; */
     }
 
     .img-div img {
-        margin: 10px;
+        padding: 10px 30px;
     }
 
 }
